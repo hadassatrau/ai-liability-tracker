@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 from langchain_openai import ChatOpenAI
-from langchain.prompts import ChatPromptTemplate
+from langchain_core.prompts import ChatPromptTemplate
 from langchain.output_parsers import ResponseSchema, StructuredOutputParser
 import datetime
 
